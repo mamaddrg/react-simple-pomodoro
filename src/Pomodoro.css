@@ -1,0 +1,70 @@
+.pomodoro {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #87d7cc;
+  color: #2c888d;
+}
+
+.timer {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.percentage {
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  font-size: 0.8rem;
+  width: 100%;
+  max-width: 640px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.progress-bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.controls button {
+  outline: none;
+  border: none;
+  min-width: 128px;
+  font-size: 1rem;
+  font-weight: 900;
+  background: #f8ff6e;
+  color: #787c32;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 8px 16px;
+  margin: 0 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.controls button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.mt-standard {
+  margin-top: 1rem;
+}
+
+.mt-large {
+  margin-top: 2rem;
+}
+
+.mt-x-large {
+  margin-top: 3rem;
+}
